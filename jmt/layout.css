@@ -1,0 +1,184 @@
+body {
+    font-family: sans-serif;
+}
+
+a img { border: none; }
+
+h1 {margin-top: 0;}
+
+div.oc { padding-bottom: 9px;}
+
+a.oc { padding: 3px 5px; 
+       text-decoration: none;
+       background-color: #cc5;
+       color: white;
+}
+
+.debug { color: #EE82EE;}
+
+tr.row2 { background-color: #fff;}
+tr.row1 { background-color: #eea;}
+tr.row0 { background-color: #cc5;}
+
+div.fw-main1 { clear: both;}
+
+a.cmd { 
+    padding: 3px 5px;
+    margin: 4px 4px;
+    border: solid 1px #bbb;
+    background-color: #bbb;
+    text-decoration: none;
+    color: black;
+}
+
+input.cmd { 
+    padding: 3px 5px;
+    margin: 4px 4px;
+    border: solid 1px #bbb;
+    background-color: #bbb;
+    text-decoration: none;
+    font-size: 100%;
+    color: black;
+}
+
+input.easy { background-color: #cc5; }
+a.easy { background-color: #cc5; }
+
+input.hint { background-color: #FFA500; }
+a.hint { background-color: #FFA500; }
+
+input.danger { background-color: #f00; }
+a.danger { background-color: #f00; }
+
+input.debug { background-color: #FF0000; color: white;}
+a.debug { background-color: #FF0000;  color: white;}
+
+hr {
+    border: none;
+    background-color: #888;
+    height: 2px;
+}
+
+
+/* ============================================================
+user management
+============================================================ */
+a.umd_logout { 
+    text-decoration: none;
+    color: black;
+    padding: 1px 8px;
+    margin: 1px 8px;
+    border: solid 1px black;
+    background-color: #FFA500;
+}
+
+
+/* ============================================================
+   Navigation
+   ============================================================ */
+
+div.nav_0 {
+    padding: 2px;
+    border-bottom: solid 2px #888;
+    margin-bottom: 10px;
+}
+
+span.nav_0 {
+    margin-left: 15px;
+    padding: 2px 15px;
+    border: solid 2px #888;
+}
+
+span.nav_divspan-those {
+    background-color: #eee;
+}
+
+span.nav_divspan-this {
+    background-color: #cc5;
+}
+
+span.nav_divspan-this a {
+    text-decoration: none;
+    color: white;
+}
+
+span.nav_divspan-those a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------------------------------------
+ * Table of import
+ * -------------------------------------------------- */
+table.import td { vertical-align: top;}
+
+/* --------------------------------------------------
+ * Table of filter
+ * -------------------------------------------------- */
+table.filter td { vertical-align: bottom;}
+
+/* --------------------------------------------------
+ * Table of users
+ * -------------------------------------------------- */
+table.user-tab {
+    cellsapcing: 0;
+    border-collapse: collapse;
+}
+
+table.user-tab th {
+    padding: 2px 5px;
+    border: solid 2px black;
+}
+
+table.user-tab td {
+    padding: 5px 5px;
+    border: solid 1px black;
+}
+
+
+
+
+dl.user dt {font-weight: bold;}
+dl.user dd {margin-bottom: 10px;}
+
+
+div.hint { 
+    border: solid 2px #FF8C00;
+    background-color: #eee;
+    padding: 3px 10px;
+    margin: 10px;
+}
+
+div.ok { 
+    border: solid 2px #228B22;
+    background-color: #eee;
+    padding: 3px 10px;
+    margin: 10px;
+}
+
+div.err { 
+    border: solid 2px #FF0000;
+    background-color: #eee;
+    padding: 3px 10px;
+    margin: 10px;
+}
+
+table.job {    cellsapcing: 0;    border-collapse: collapse; margin: 10px 20px;}
+table.job th { vertical-align: top; padding: 10px 30px; border: solid 2px #888;}
+table.job td { vertical-align: top; padding: 10px 30px; border: solid 2px #888;}
+
+
+table.jobs{ 
+    clear: both; 
+    margin-left: 15px; 
+    border-collapse: collapse; border-spacing: 0;
+    border: solid 2px black;
+}
+table.jobs td { text-align: center; padding: 1px 14px; border-top: solid 1px black;}
+table.jobs th { vertical-align: top; padding: 1px 14px; border-top: solid 1px black;}
+
+span.cnt { padding: 0 6px; margin: 0 0px;}
+span.st-1 { background-color: #90EE90;}
+span.st-2 { background-color: #32CD32;}
+span.st-3 { background-color: #FFD500;}
+span.st-4 { background-color: #FFA500;}

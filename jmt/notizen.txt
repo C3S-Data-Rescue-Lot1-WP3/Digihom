@@ -1,0 +1,27 @@
+5 Instanzen: Schweiz, Chile, Frankreich, Russland, Portugal, ACRE
+
+trash.png
+Leere Instanz zum vervielfältigen (db-dump)
+
+Tabelle
+user
+key1
+key2
+key3
+job (key1 & key2, verzeichnis 2x(user datum out, ~in, zeit, remark user, remark admin)
+
+Ein Job umfasst ein Verzeichniss an bilder
+Bei Jobdefinition wird
++ dieses verschoben und mit random Name versehen
++ Stichwort 1 & 2 gesetzt (mit vorgaben)
++ user zugeordnet
++ kommentar setzen
+
+Bei Job upload
++ ein excel
++ zeit in h optional
++ kommentar
+
+Job kann auch ein zweites mal vergeben werden
+
+user kann von seinen offenen jobs ein temporäres zip-file erstellen lassen (=ein job).

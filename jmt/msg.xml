@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+  <text id="title">Job management tool (general instance)</text>
+  <text id="err-dbcon">Error: Not able to connect database</text>
+  <text id="err-authcon">Error: Not able to connect user validation</text>
+  <text id="err-authrun">Error: User validation not running</text>
+  <text id="err-dir-up">Error: Upload directory for user not available or writeable: </text>
+  <text id="err-dir-imp">Error: Directory for import not available or writeable: </text>
+  <text id="err-dir-jobs">Error: Directory for jobs not available or writeable: </text>
+  <text id="err-dir-ro">Error: Directory not writeable: </text>
+
+  <text id="err-unknownsite">Error: Unknown site</text>
+  <text id="err-unknownrequest">Error: Unknown request</text>
+  <text id="err-invalidrequest">Error: Invalid request</text>
+  <text id="err-access">Error: Access denied</text>
+  <text id="err-pwdfailed">Error: Wrong password</text>
+  <text id="err-unamefailed">Error: Invalid user name</text>
+  <text id="err-uploadfailed">Error: Upload failed</text>
+  <text id="err-userexists">Error: User exists already</text>
+  <text id="err-incomplete">Error: Incomplete request</text>
+  <text id="err-nonunique">Name not unique</text>
+  <text id="err-movedir">Failed moving data</text>
+  <text id="err-savejob">Failed saving job</text>
+  <text id="err-ro">Error: Read-only, no write access</text>
+  <text id="err-zip">Failed creating zip</text>
+  <text id="err-unlink_na_chk">Remove file is not allowed since job is already a duble checking</text>
+  <text id="err-unlink_na_acc">You are not allowed to remove this file</text>
+  <text id="err-nojob">Job not found</text>
+  <text id="err-userhasjobs">Not able to delete user since related to jobs</text>
+
+  <text id="msg-pictdel-ok">Picture removed</text>
+  <text id="msg-jobdel-ok">Job removed</text>
+
+  <text id="hint-loginfirst">Please log in first</text>
+  <text id="hint-nojobdir">Directory for this job is missing</text>
+
+  <text id="um-fld-uname">User name</text>$
+  <text id="um-fld-firstname">First name</text>
+  <text id="um-fld-lastname">Last name</text>
+  <text id="um-fld-email">E-Mail</text>
+  <text id="um-fld-pwd">Password</text>$
+
+  <text id="col-id">ID</text>
+  <text id="col-prio">Priority</text>
+  <text id="col-fyear">First Year</text>
+  <text id="col-lyear">Last year</text>
+  <text id="col-remark">Remark</text>
+
+  <text id="col-dir">Directory</text>
+  <text id="col-key1">Keyword 1</text>
+  <text id="col-key2">Keyword 2</text>
+  <text id="col-usr">User</text>
+  <text id="col-user">User</text>
+  <text id="col-rem">Remark</text>
+
+  <text id="col-status">Status</text>
+  <text id="col-dateout">Date out</text>
+  <text id="col-file">File</text>
+  <text id="col-datein">Date in</text>
+  <text id="col-time">Time (h)</text>
+  <text id="col-remark">Remark</text>
+
+  <text id="col-dig">Digitize</text>
+  <text id="col-chk">Check</text>
+  <text id="col-zip">zip file</text>
+
+  <text id="nav-users">Users</text>
+  <text id="nav-jobs">Jobs</text>
+  <text id="nav-import">Import new Jobs</text>
+  <text id="nav-files">Files</text>
+  <text id="nav-open">Open Jobs</text>
+  <text id="nav-usrjobs">My Jobs</text>
+  <text id="nav-upload">Upload files</text>
+  <text id="nav-personal">Personal Settings</text>
+  <text id="nav-admin">Admin Area</text>
+
+  <text id="lab-pend">pending</text>
+  <text id="lab-done">done</text>
+
+  <text id="lab-group">Group</text>
+  <text id="lab-conf">Confirmation</text>
+  <text id="lab-pwdnew">New password</text>
+
+  <text id="lab-stat">Statistics</text>
+  <text id="lab-cmds">Commands</text>
+  <text id="lab-show">show</text>
+  <text id="lab-create">create</text>
+  <text id="lab-edit">edit</text>
+  <text id="lab-del">delete</text>
+  <text id="lab-save">save</text>
+  <text id="lab-filter">filter</text>
+  <text id="lab-showall">show all</text>
+  <text id="lab-download">download</text>
+  <text id="lab-upload">upload</text>
+
+  <text id="lab-name">Name</text>
+
+  <text id="lab-pictdel">Remove all pictures?</text>
+  <text id="lab-jobdel">Remove complete Job?</text>
+  <text id="lab-yes">YES</text>
+  <text id="lab-no">NO</text>
+
+  <text id="lab-select">[select]</text>
+  <text id="lab-jobs">Jobs</text>
+  <text id="lab-chkuser">User for checking</text>
+  <text id="lab-diguser">User for digitalization</text>
+  <text id="lab-createzip">create zip with all pictures</text>
+
+
+
+
+  <text id="tit-overview">Overview</text>
+  <text id="tit-create">Create new</text>
+  <text id="tit-details">Details</text>
+  <text id="tit-persbasic">Personal basic data</text>
+  <text id="tit-mail">E-Mail</text>
+  <text id="tit-jobs">Job management</text>
+  <text id="tit-jobsnew">Mass job creation/modification</text>
+  <text id="tit-filter">Filter</text>
+  <text id="tit-files">Files</text>
+  <text id="tit-zip">Zip</text>
+
+  <text id="st-99">All</text>
+<!--  <text id="st-0">Ready for digitalization</text> -->
+  <text id="st-0">Importet</text>
+  <text id="st-1">At digitalization</text>
+  <text id="st-2">Digitzed and ready for check</text>
+  <text id="st-3">At checking</text>
+  <text id="st-4">Finished</text>
+  <text id="st-02">Ready for digit or check</text>
+  <text id="st-13">At digit or check</text>
+
+  <text id="qst-isadmin">Is Admin?</text>
+
+  <text id="hint-unknownuser">Unknown user</text>
+  <text id="hint-unknownjob">Unknown job</text>
+  <text id="hint-unknownfile">Unknown file</text>
+  <text id="hint-nothingchanged">Nothing has changed</text>
+  <text id="hint-saved">Saved</text>
+  <text id="hint-failed">Failed</text>
+  <text id="hint-nothing">Nothing found</text>
+  <text id="hint-done">Done</text>
+  <text id="hint-rmftp"><b>Please remove source directory from FTP-Server!</b> Otherwise duplicates may be created.</text>
+
+  <text id="hint-jobsnew">
+    <b style='margin-right: 10px;'>Create station entries:</b>
+    Will create for the asked time period one entry for each month, 
+    if it not already exists.</text>
+
+  <text id="hint-contact">
+    <hr/>
+    <p>Contact: <a href="mailto:stefan.broennimann@giub.unibe.ch">Stefan Brönnimann</a></p>
+  </text>
+
+  <text id="hint-edituser-asuser">
+    The <i>password</i> is necessary for all changes. The <i>new password</i> only, if you want to change it.
+  </text>
+
+  <text id="hint-edituser-asadmin">
+    Leave the <i>new password</i> empty unless you want to (re)set it.
+  </text>
+
+  <text id="hint-import">
+    To create a new job put all files (using ftp) in a subdirectory of <tt>%1</tt>,
+    reload this page and fill out the corresponding line in the following table. 
+    The subdirectory with the the data files will be <b>copied</b> 
+    under a new random name to <tt>%2</tt>. Therefore the target directory has to be writable for everybody.
+    Please remove the source directory afterwards (not done automatically, since ftp is used inbetween).
+    (Result) Files uploaded by the user are saved at <tt>%3</tt>
+  </text>
+
+  <text id="hint-zipcreate">
+    This may need some seconds.<br/>The zip may be removed after one hour.
+  </text>
+
+  <text id="hint-zipcreate_user">
+    Creating a zip may need some seconds. The zip may be removed after an hour.
+  </text>
+
+  <text id="hint-filter">
+    Except <i>status</i> all filters allow multiple selections.<br/>
+    Nothing selected has the same effect as all selected.<br/>
+    Depending on your browser: a) Click an marked item to deselect it 
+    b) Use the [ctrl]-key for multiple de-/selection
+  </text>
+  <text id="hint-download">
+    Click the id of a job to see the details including the files for download.
+  </text>
+
+
+
+</messages>
