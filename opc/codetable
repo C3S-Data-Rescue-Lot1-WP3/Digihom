@@ -1,0 +1,19 @@
+
+ 99?? open points
+ 9990 return code not yet fixed
+ 9997 should not happen
+ 9998 not yet coded
+ 9999 not yet decided	
+
+10??? Common
+10010 Error proofing instanceof/class
+10011 Dont know what to do with this argument
+10012 Argument not valid/does not match
+
+20??? mapping
+20101 not able to resolve class (map_class)
+
+21??? initilaize
+21001 not able to initlaize
+
+
