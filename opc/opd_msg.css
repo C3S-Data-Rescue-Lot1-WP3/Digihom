@@ -1,0 +1,24 @@
+/* common -------------------------------------------------------------------------------- */
+.msg-level{ font-weight: bold; margin: 2px 3px; padding: 1px 4px; }
+.msg-level-crit  { border-left: solid 15px #000; background-color: red; color: white; font-weight: bold;}
+.msg-level-err   { border-left: solid 15px #f00; }
+.msg-level-warn  { border-left: solid 15px #f80; }
+.msg-level-conf  { border-left: solid 15px #282; }
+.msg-level-hint  { border-left: solid 15px #19f; }
+.msg-level-trace { border-left: solid 15px #9400D3; }
+
+
+/* layout sl -------------------------------------------------------------------------------- */
+div.msg_sl-single { margin: 2px 5px 2px 0; padding: 1px 5px 1px 0;}
+
+div.msg_sl-whole { border: solid 1px #444; margin: 2px 5px; padding: 0;}
+div.msg_sl-situation { font-size: larger; margin: 0; padding: 3px 5px; background-color: #eee; color: black;}
+ul.msg_sl {margin: 0 3px 3px 0; padding-top: 0; padding-right: 3px;}
+
+/* layout ls -------------------------------------------------------------------------------- */
+div.msg_ls-single { margin: 2px 5px 2px 0; padding: 1px 5px 1px 0;}
+
+div.msg_ls-whole { border: solid 1px #444; margin: 2px 5px; padding: 0;}
+div.msg_ls-level { font-size: larger; margin: 0; padding: 3px 5px; background-color: #eee; color: black;}
+div.msg_ls-situation{ font-weight: bold; margin: 2px 3px; padding: 1px 4px; }
+ul.msg_ls {margin: 0 3px 3px 0; padding-top: 0; padding-right: 3px;}

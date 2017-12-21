@@ -1,0 +1,57 @@
+/* css defintion for the class opc_ht2o_nav and other similar structers */
+
+/* for ul ================================================================================  */
+ul.nav_ul { list-style-type: none; margin: 0px; padding: 0px;}
+ul.nav_ul li { margin: 0px; padding-left: 5px;}
+ul.nav_ul span.nav_ul  {  border-left: solid 5px #fff; padding: 0 3px;}
+ul.nav_ul a.nav_ul  {  border-left: solid 5px #fff; padding: 0 3px;}
+ul.nav_ul a.nav_ul  {  text-decoration: none; color: black; background-color: white;}
+ul.nav_ul span.nav_ul-cs  {  background-color: #fff; color: #888;}
+ul.nav_ul a.nav_ul:hover {  border-color: #444; }
+ul.nav_ul a.nav_ul-this  {  background-color: #444; color: white;}
+ul.nav_ul a.nav_ul-selected  {  background-color: #bbb; color: white;}
+ul.nav_ul a.nav_ul-selected  {  background-color: #888; color: white;}
+ul.nav_ul span.nav_ul-selected  {  background-color: #888; color: white;}
+/* ----------------------------------------------------------------------------------------*/
+
+/* for vtable ================================================================================  */
+table.nav_vtable { margin: 0px; padding: 0px; border-spacing: 0; border-collapse: collapse;}
+table.nav_vtable td.nav_vtable-selected  {  background-color: #888; color: white;}
+table.nav_vtable td.nav_vtable-cs  {  background-color: #fff; color: #888;}
+table.nav_vtable td.nav_vtable-this  {  background-color: #444; color: white;}
+table.nav_vtable a.nav_vtable  {  text-decoration: none; color: black; background-color: white;}
+table.nav_vtable a.nav_vtable:hover  {  text-decoration: none; color: white; background-color: #444;}
+table.nav_vtable td.nav_vtable:hover  {  text-decoration: none; color: white; background-color: #444;}
+table.nav_vtable a.nav_vtable-this  {  background-color: #444; color: white;}
+table.nav_vtable a.nav_vtable-selected  {  background-color: #888; color: white;}
+/* ----------------------------------------------------------------------------------------*/
+
+/* for nvtable ================================================================================ */
+table.nav_nvtable { margin: 0 0 0 5px; padding: 0px; border-spacing: 0; border-collapse: collapse;}
+table.nav_nvtable span.nav_nvtable  {  border-left: solid 5px #fff; padding: 0 3px;}
+table.nav_nvtable a.nav_nvtable  {  border-left: solid 5px #fff; padding: 0 3px;}
+table.nav_nvtable a.nav_nvtable  {  text-decoration: none; color: black; background-color: white;}
+table.nav_nvtable a.nav_nvtable:hover  {  text-decoration: none; color: white; background-color: #444;}
+table.nav_nvtable a.nav_nvtable-this  {  background-color: #444; color: white;}
+table.nav_nvtable a.nav_nvtable-selected  {  background-color: #bbb; color: white;}
+table.nav_nvtable a.nav_nvtable-selected  {  background-color: #888; color: white;}
+table.nav_nvtable span.nav_nvtable-cs  {  background-color: #fff; color: #888;}
+/* ----------------------------------------------------------------------------------------*/
+
+/* for htable ================================================================================ */
+table.nav_htable {margin: 0px; padding: 0px; border-spacing: 0px; border-collapse: collapse; border: solid 2px black; }
+table.nav_htable td { vertical-align: top; text-align: center; border: solid 1px #eee;}
+table.nav_htable span.nav_htable  {  padding: 0 3px;}
+table.nav_htable a.nav_htable  {  padding: 0 3px;}
+table.nav_htable a.nav_htable  {  text-decoration: none; color: black; background-color: white;}
+table.nav_htable a.nav_htable:hover  {  text-decoration: none; color: black; background-color: #eee;}
+table.nav_htable td.nav_htable:hover  {  background-color: #eee; color: white;}
+table.nav_htable a.nav_htable-this  {  background-color: #444; color: white;}
+table.nav_htable a.nav_htable-path  {  background-color: #ddd; color: black;}
+table.nav_htable a.nav_htable-selected  {  background-color: #888; color: white;}
+table.nav_htable span.nav_htable-cs  {  background-color: #fff; color: #888;}
+table.nav_htable td.nav_htable-selected  {  background-color: #888; color: white;}
+table.nav_htable td.nav_htable-path  {  background-color: #ddd; color: black;}
+table.nav_htable td.nav_htable-this  {  background-color: #444; color: white;}
+/* ----------------------------------------------------------------------------------------*/
+

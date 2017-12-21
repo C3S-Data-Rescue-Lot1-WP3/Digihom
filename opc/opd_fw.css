@@ -1,0 +1,28 @@
+div.ofw_msg { border-left: solid 4px #f80; padding-left: 5px;}
+div.index {float: left; padding: 50px 10px 0 0; width: 150px;}    
+
+
+
+
+
+/* standard Layouts as hlmrf-Kombinationen */
+div.fw-header {}
+
+div.fw-main2r{    float: left;  width: 80%; }
+div.fw-right2{    float: right; width: 20%; min-width: 100px; max-width: 300px;}
+
+div.fw-main2l{    float: left;  width: 80%; }
+div.fw-left2{     clear: both;  float: left;  width: 20%; min-width: 100px; max-width: 300px;}
+
+div.fw-left5{     float: left;  width: 50%; }
+div.fw-right5{    float: left;  width: 50%; }
+
+div.fw-left3{     float: left;  width: 20%; min-width: 100px; max-width: 300px;}
+div.fw-main3wrap{ float: left;  width: 80%; }
+div.fw-main3{     float: left;  width: 60%; }
+div.fw-right3{    float: right; width: 20%; min-width: 100px; max-width: 300px;}
+
+div.fw-footer { clear: both; }
+
+span.ht2form-input-prolog {padding-right: 15px;}
+span.ht2form-input-epilog {padding-left: 15px;}
